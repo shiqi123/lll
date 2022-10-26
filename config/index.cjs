@@ -36,22 +36,25 @@ const USER_CONFIG = {
       horoscopeDate: '01-16',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '朱梦柯', year: '1999', date: '11-06',
-        },
-        {
-          type: '*生日', name: '爸爸', year: '1973', date: '02-03',
-        },
-        {
-          type: '*生日', name: '妈妈', year: '1975', date: '11-01',
-        },
+//         {
+//           type: '*生日', name: '朱梦柯', year: '1999', date: '11-06',
+//         },
+//         {
+//           type: '*生日', name: '爸爸', year: '1973', date: '02-03',
+//         },
+//         {
+//           type: '*生日', name: '妈妈', year: '1975', date: '11-01',
+//         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-//         {
-//           type: '生日', name: '李四', year: '1996', date: '09-31',
-//         },
-//         {
-//           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-//         },
+        {
+          type: '生日', name: '朱梦柯', year: '1999', date: '11-06',
+        },
+        {
+          type: '生日', name: '爸爸', year: '1973', date: '02-03',
+        },
+        {
+          type: '生日', name: '妈妈', year: '1975', date: '11-01',
+        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
