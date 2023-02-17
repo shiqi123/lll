@@ -31,7 +31,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oqz6O6Rv0xcOqS3W_G9AFw3WoH1I',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '2hXpkzNoNHoKiirZLM2KYFg9q-Zu-L0XTE7LcBaPTdw',
+      useTemplateId: 'CZlJnOnqQqHaT-W5DaNj93J0VXHlPqq-S34fhL8UQrU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-16',
       festivals: [
@@ -63,25 +63,6 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '1999-11-06' },
       ],
-      SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-//     { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
-    // 这样配置的话，就会每次随机选一句话发送
-    {
-      keyword: 'lover_prattle',
-      contents: [
-        '因为太喜欢你，所以看谁都像是情敌。',
-        '申请成为你爱里的永久居民。',
-        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-        '遇见你，就好像捡到了100斤的运气',
-        '幸好遇到你，我从没后悔',
-        '你是否还记得：我是在公交车上爱上了你',
-        '你不是谁的替代，而是我的唯一',
-        '谢谢你伴我度过黑暗',
-        '我只想好好保护你，不想你受到一丁点伤害'
-      ],
-    },
-  ],
     },
     {
       // 想要发送的人的名字
@@ -112,25 +93,6 @@ const USER_CONFIG = {
         // 结婚纪念日
 //         { keyword: 'marry_day', date: '2022-09-09' },
       ],
-      SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-//     { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
-    // 这样配置的话，就会每次随机选一句话发送
-    {
-      keyword: 'lover_prattle',
-      contents: [
-        '因为太喜欢你，所以看谁都像是情敌。',
-        '申请成为你爱里的永久居民。',
-        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-        '遇见你，就好像捡到了100斤的运气',
-        '幸好遇到你，我从没后悔',
-        '你是否还记得：我是在公交车上爱上了你',
-        '你不是谁的替代，而是我的唯一',
-        '谢谢你伴我度过黑暗',
-        '我只想好好保护你，不想你受到一丁点伤害'
-      ],
-    },
-  ],
     }
     ],
 
