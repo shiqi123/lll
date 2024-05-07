@@ -36,16 +36,16 @@ const USER_CONFIG = {
           type: '*生日', name: '妈妈', year: '1975', date: '11-01',
         },
         {
-           type: '生日', name: '朱梦柯', year: '1999', date: '11-06',
+           type: '生日', name: '老朱', year: '1999', date: '11-06',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2016-09-15' },
-        // 朱梦柯天数
+        // 老朱天数
         { keyword: 'marry_day', date: '1999-11-06' },
-        // 张孟晗天数
+        // 妹妹天数
         { keyword: 'sister_day', date: '2005-05-01' },
       ],
     },
