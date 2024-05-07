@@ -43,8 +43,10 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2016-09-15' },
-        // 结婚纪念日
+        // 朱梦柯天数
         { keyword: 'marry_day', date: '1999-11-06' },
+        // 张孟晗天数
+        { keyword: 'sister_day', date: '2005-05-01' },
       ],
     },
   ],
